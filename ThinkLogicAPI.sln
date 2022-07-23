@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkLogicAPI", "ThinkLogicAPI\ThinkLogicAPI.csproj", "{5582FFCF-008A-4FDB-AE78-4C0E89249F40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DDC1AE1-4103-4658-9BBC-415A21470380} = {1DDC1AE1-4103-4658-9BBC-415A21470380}
+		{60460AA3-A7B5-4C90-B13D-6616AE0EF21F} = {60460AA3-A7B5-4C90-B13D-6616AE0EF21F}
+		{780AABD1-98EA-4093-B1C3-FE49929E1F40} = {780AABD1-98EA-4093-B1C3-FE49929E1F40}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkLogicAPI.Application", "Application\ThinkLogicAPI.Application.csproj", "{780AABD1-98EA-4093-B1C3-FE49929E1F40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkLogicAPI.Domain", "Domain\ThinkLogicAPI.Domain.csproj", "{1DDC1AE1-4103-4658-9BBC-415A21470380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkLogicAPI.Data", "Data\ThinkLogicAPI.Data.csproj", "{96DE4E53-290A-4A28-B77B-869A784AD024}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{7FA227F4-6112-4612-8A2B-DDE492BCA35F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Core", "03 - Core", "{EBC57BBA-3A98-4535-9B58-2BD709837426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Infrastructure", "02 - Infrastructure", "{B0A728EF-3F8F-4036-9D7D-12DCBBA25348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkLogicAPI.Ioc", "Ioc\ThinkLogicAPI.Ioc.csproj", "{60460AA3-A7B5-4C90-B13D-6616AE0EF21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5582FFCF-008A-4FDB-AE78-4C0E89249F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5582FFCF-008A-4FDB-AE78-4C0E89249F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5582FFCF-008A-4FDB-AE78-4C0E89249F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5582FFCF-008A-4FDB-AE78-4C0E89249F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780AABD1-98EA-4093-B1C3-FE49929E1F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780AABD1-98EA-4093-B1C3-FE49929E1F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780AABD1-98EA-4093-B1C3-FE49929E1F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780AABD1-98EA-4093-B1C3-FE49929E1F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDC1AE1-4103-4658-9BBC-415A21470380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDC1AE1-4103-4658-9BBC-415A21470380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDC1AE1-4103-4658-9BBC-415A21470380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDC1AE1-4103-4658-9BBC-415A21470380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DE4E53-290A-4A28-B77B-869A784AD024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DE4E53-290A-4A28-B77B-869A784AD024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DE4E53-290A-4A28-B77B-869A784AD024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DE4E53-290A-4A28-B77B-869A784AD024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60460AA3-A7B5-4C90-B13D-6616AE0EF21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60460AA3-A7B5-4C90-B13D-6616AE0EF21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60460AA3-A7B5-4C90-B13D-6616AE0EF21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60460AA3-A7B5-4C90-B13D-6616AE0EF21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5582FFCF-008A-4FDB-AE78-4C0E89249F40} = {7FA227F4-6112-4612-8A2B-DDE492BCA35F}
+		{780AABD1-98EA-4093-B1C3-FE49929E1F40} = {EBC57BBA-3A98-4535-9B58-2BD709837426}
+		{1DDC1AE1-4103-4658-9BBC-415A21470380} = {EBC57BBA-3A98-4535-9B58-2BD709837426}
+		{96DE4E53-290A-4A28-B77B-869A784AD024} = {B0A728EF-3F8F-4036-9D7D-12DCBBA25348}
+		{60460AA3-A7B5-4C90-B13D-6616AE0EF21F} = {B0A728EF-3F8F-4036-9D7D-12DCBBA25348}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E62C0CBE-DEE2-4EE9-B7F8-9D7A4E78E624}
+	EndGlobalSection
+EndGlobal
